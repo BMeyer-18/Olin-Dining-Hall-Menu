@@ -1,10 +1,19 @@
-header {
-    background-image: url("./pictures/bee-background.png");
+#header-text {
     color: white;
+    height: 20vw;
+    position: absolute;
 
 
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+}
+
+#header-background {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    height: 20vw;
 }
